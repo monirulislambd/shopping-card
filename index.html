@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    
+</head>
+<body>
+    <h1> Welcome to our DokanGhor</h1> 
+    <div class="header">
+        <p class="logo">LOGO</p>
+        <div class="cart" id="cart-count"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+    </div>
+
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar" id="sidebarr">
+            <div class="head">
+                <p>My Cart</p>
+            </div>
+           <div class="ordered-product">
+                <div id="cartItem">
+                    Your Cart is empty
+                </div>
+           </div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+                <div class="buy-btn">
+                <button>Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="addToCart.js"></script>
+</body>
+</html>
